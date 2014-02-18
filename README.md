@@ -68,3 +68,7 @@ For memory information, you can also run ```/usr/bin/vm_stat```:
     Pageouts:                                281931.
     Swapins:                                  76698.
     Swapouts:                                353785.
+
+For total physical memory, run ```sysctl hw.memsize```:
+
+    hw.memsize: 17179869184
